@@ -17,6 +17,19 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            function bigImg(x) {
+              x.style.height = "300px";
+              x.style.width = "300px";
+            }
+            
+            function normalImg(x) {
+              x.style.height = "200px";
+              x.style.width = "200px";
+            }
+           
+
+            </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -60,17 +73,21 @@
             <div class="row justify-content-center">
                 <div class="col-md-2 col-sm-6">
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/i4.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/item4.jpg" alt="..." />
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-fluid" src="assets/img/portfolio/thumbnails/item4.jpg" alt="item4" width="200" height="200" />
+                        <p>نظام إلكتروني متكامل لإدارة الموارد البشرية شامل لجميع المهام والاحتياجات الموكلة لقسم الموارد البشرية </p>
+                    
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-6">
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/i3.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/item3.jpg" alt="..." />
+                        <img  onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-fluid" src="assets/img/portfolio/thumbnails/item3.jpg" alt="item3" width="200" height="200"/>
+                   <p>نظام إلكتروني متكامل لإدارة الموجودات الثابتة في المنشأة بشكل متكامل وتنظيمها وتبويبها</p>
                     </a>
                 </div>
                 <div class="col-md-2 col-sm-6">
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/i1.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/item1.jpg" alt="..." />
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-fluid" src="assets/img/portfolio/thumbnails/item1.jpg" alt="item1" width="200" height="200"/>
+                     <p>نظام إلكتروني متكامل لإدارة العمليات المحاسبية والمستودعية في الشركة</p>
                     </a>
                 </div>
      </div>
@@ -90,16 +107,31 @@
                    
                              </div>
                              <div class="row justify-content-center">
-                                <div class="col-md-3 col-sm-6">
+                                <div class=" col-sm-6">
                                 <div class="member-info">
-                                    <h4 class=" mb-4 text-center">Nour ammar</h4>
-                                    <h3 class=" mb-4 text-center">BAIT</h3>
-                                    <p class=" mb-4 text-center">Configure, deploy, maintain and support Windows computer workstions, laptops and printers</p>
-                                 </div>
+                                    <h4 class=" mb-4 text-center">نور عمار</h4>
+                                    <ul>
+                                        <li>
+                                            <strong>الشهادات:</strong>
+                                            <br>
+                                             BAIT بكالوريس تكنولوجيا المعلومات  
+                                        </li>
+                                        <li>
+                                            <strong>المهارات:</strong>
+                                            <br>
+                                             Oracle- Linux OS-Windows OS-Html5-CSS 
+                                        </li>
+                                        <li>
+                                            <strong>الخبرات العملية:</strong>
+                                            <br>
+                                              المؤسسة العامة السورية للتأمين-قسم المعلوماتية   
+                                        </li>
+                                    </ul>
                              </div>
                              
                 </div>
                 
+            </div>
             </div>
      </section>
       <!-- Contact-->
